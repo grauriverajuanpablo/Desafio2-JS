@@ -1,0 +1,90 @@
+.layout {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grow1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .grow1 input {
+    display: block;
+    margin: 10px auto 0;
+  }
+
+  .grow2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .grow2 input {
+    display: block;
+    margin: 10px auto 0;
+  }
+
+  .grow3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .grow3 input {
+    display: block;
+    margin: 10px auto 0;
+  }
+
+
+
+  button {
+    display: block;
+    margin: 10px auto;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+
+h1{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+
+#resultado{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

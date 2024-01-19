@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stickers</title>
+  <link rel="stylesheet" type="text/css" href="./CSS/style_stikers.css">
+</head>
+<body>
+  <h1>Stickers</h1>
+  <h3>Selecciona hasta 10 stickers:</h3>
+
+
+  <section class="layout">
+    <div class="grow1"><img src="./IMGS/Gato.jpg"Sticker 1">
+        <label for="sticker1">Cantidad:</label>
+        <input type="number" id="sticker1" name="sticker1" min="0" max="10"></div>
+    <div class="grow2"><img src="./IMGS/stikers2.jpg" alt="Sticker 2">
+        <label for="sticker2">Cantidad:</label>
+        <input type="number" id="sticker2" name="sticker2" min="0" max="10"></div>
+    <div class="grow3"><img src="./IMGS/git.jpg" alt="Sticker 3">
+        <label for="sticker3">Cantidad:</label>
+        <input type="number" id="sticker3" name="sticker3" min="0" max="10"></div>
+  </section>
+
+  <button onclick="Verificar()">Verificar</button>
+  <p id="resultado"></p>
+  <script src="./JS/script_stikers.js"></script>
+</body>
+</html>
+
